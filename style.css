@@ -67,6 +67,7 @@ body {
 
 .section-heading {
   padding: 30px 0 15px 0;
+  font-size: 35px;
 }
 
 .badges {
@@ -105,6 +106,31 @@ body {
   .project .project-about {
     width: 90%;
   }
+}
+
+.social-links, .project-links {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+.social-links .social-link, .social-links .project-link, .project-links .social-link, .project-links .project-link {
+  text-decoration: none;
+  padding: 6px;
+  min-width: 80px;
+  border-radius: 5px;
+  background-color: #3377C0;
+  color: white;
+  font-weight: bold;
+}
+.social-links .social-link:hover, .social-links .project-link:hover, .project-links .social-link:hover, .project-links .project-link:hover {
+  background-color: #285e98;
+}
+
+#main-footer {
+  text-align: center;
+  padding: 30px 0 10px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

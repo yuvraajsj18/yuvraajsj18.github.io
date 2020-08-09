@@ -72,6 +72,7 @@ body {
 
 .section-heading {
     padding: 30px 0 15px 0;
+    font-size: 35px;
 }
 
 .badges {
@@ -114,4 +115,31 @@ body {
             width: 90%;
         }
     }
+}
+
+.social-links, .project-links {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+
+    .social-link, .project-link {
+        text-decoration: none;
+        padding: 6px;
+        min-width: 80px;
+        border-radius: 5px;
+        background-color: #3377C0;
+        color: white;
+        font-weight: bold;
+
+        &:hover {
+            background-color: darken($color: #3377C0, $amount: 10);
+        }
+    }
+}
+
+#main-footer {
+    text-align: center;
+    padding: 30px 0 10px 0;
 }
