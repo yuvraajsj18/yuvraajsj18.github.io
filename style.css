@@ -41,13 +41,13 @@ body {
 }
 
 .container {
-  width: 60%;
+  width: 70%;
   margin: auto;
   padding: 20px 60px;
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1140px) {
   .container {
     width: 100%;
     padding: 20px 10px;
@@ -69,7 +69,7 @@ body {
   padding: 30px 0 15px 0;
 }
 
-#skills .section-info {
+.badges {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -81,6 +81,30 @@ body {
   padding: 4px 10px;
   margin: 4px;
   border-radius: 24px;
+}
+
+.project {
+  padding: 30px 0;
+}
+.project .project-title {
+  padding: 10px 0;
+}
+.project .project-photo {
+  width: 70%;
+  margin: auto;
+  border-radius: 7px;
+}
+.project .project-about {
+  width: 80%;
+  margin: auto;
+}
+@media (max-width: 1140px) {
+  .project .project-photo {
+    width: 90%;
+  }
+  .project .project-about {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
