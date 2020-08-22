@@ -40,6 +40,12 @@ body {
             text-decoration: underline;
         }
     }
+
+    @media(max-width: 576px) {
+        .nav-link {
+            padding: 6px;
+        }
+    }
 }
 
 .container {
