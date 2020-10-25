@@ -70,6 +70,10 @@ body {
   font-size: 20px;
 }
 
+#blog {
+  color: white;
+}
+
 .section-heading {
   padding: 30px 0 15px 0;
   font-size: 35px;
