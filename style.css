@@ -96,11 +96,11 @@ body {
 .blog-link {
   display: block;
   padding: 5px;
-  color: antiquewhite;
+  color: cornflowerblue;
 }
 
 .blog-link:visited {
-  color: cornflowerblue;
+  color: rgb(74, 122, 211);
 }
 
 .blog-link:hover {
