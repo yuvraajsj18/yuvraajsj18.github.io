@@ -1,6 +1,9 @@
 "use strict";
 
 document.addEventListener('DOMContentLoaded', async (e) => {
+    // redirect to new website
+    window.location.replace("https://yuvv.xyz");
+    
     const myUsername = "yuvraajsj18";
     const latestArticles = await getLatestArticles(myUsername);
     showLatestArticles(latestArticles);
